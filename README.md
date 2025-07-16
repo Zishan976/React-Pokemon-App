@@ -1,50 +1,41 @@
 # React Pokemon App
 
-This is a React application that displays a list of Pokemon with search and pagination functionality.
+This project is a simple and intuitive React application that displays a list of Pokemon with search and pagination features. It helps users browse and find Pokemon easily by name and page.
 
 ## Features
 
 - Fetches Pokemon data from the PokeAPI.
 - Client-side search to filter Pokemon by name.
-- Client-side pagination to navigate through the list of Pokemon.
-- Responsive and styled UI.
+- Client-side pagination to navigate through the list.
+- Responsive and user-friendly interface.
 
-## Deployment
+## Getting Started
 
-To deploy this app on Render:
+To run this project locally, follow these steps:
 
-1. Push your project to a Git repository (GitHub, GitLab, etc.).
-2. Create a new Web Service on Render.
-3. Connect your Git repository to Render.
-4. Set the build command to:
-   ```
-   npm install && npm run build
-   ```
-5. Set the publish directory to:
-   ```
-   build
-   ```
-6. Deploy the service and access your live app via the provided URL.
-
-## Development
-
-To run the app locally:
-
-1. Install dependencies:
+1. Clone the repository or download the source code.
+2. Navigate to the project directory.
+3. Install the dependencies:
    ```
    npm install
    ```
-2. Start the development server:
+4. Start the development server:
    ```
    npm run dev
    ```
-3. Open your browser at `http://localhost:3000` (or the port specified).
+5. Open your browser and go to the URL provided by the development server (usually http://localhost:3000).
 
-## Notes
+## Technologies Used
 
-- Pagination and search are implemented client-side.
-- The app fetches 150 Pokemon from the PokeAPI on load.
-- Styling uses CSS variables and is responsive.
+- React - A JavaScript library for building user interfaces.
+- Vite - A fast frontend build tool and development server.
+- PokeAPI - External API for Pokemon data.
+
+## Folder Structure
+
+- `src/` - Contains React components and application logic.
+- `public/` - Static assets like stylesheets.
+- `index.html` - The main HTML file.
 
 ## License
 
