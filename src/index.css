@@ -290,3 +290,19 @@ a {
   box-shadow: 0 0 8px #77cc6d;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .pagination {
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 0.4rem;
+    padding: 0 0.5rem;
+  }
+
+  .pagination li button {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    min-width: 30px;
+    height: 30px;
+  }
+}
